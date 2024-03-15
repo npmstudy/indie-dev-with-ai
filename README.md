@@ -29,6 +29,7 @@
 
 - 限于篇幅，remix我没写，我很喜欢这个。
 - 有人说next就不需要astro。我的回复是未必，做静态站点，next远没有astro爽。别说astro兼容vue、alphine等，就是性能，collection也吊打next。
+- 2gua过两天会说用go也挺好的：go只能替换node部分，都是function，无所谓的。会啥用啥。剩下那几个都依赖node，娃哈哈
 
 独立开发者要求快，能复用就复用，将精力放到产品设计上才是正经事。
 
