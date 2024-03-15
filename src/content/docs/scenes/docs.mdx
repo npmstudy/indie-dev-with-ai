@@ -3,8 +3,24 @@ title: 写文档
 description: A guide in my new Starlight docs site.
 ---
 
+import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## 使用Astro创建
+import Comments from '../../../components/Comment.jsx';
+
+<CardGrid>
+  <Card title="Starlight" icon="star">
+    最简单写文档的工具
+  </Card>
+  <Card title="Vercel" icon="moon">
+    最方便的和ci/cd集成的部署平台
+  </Card>
+</CardGrid>
+
+
+
+## 使用starlight创建项目
+
+Starlight是Astro的文档模版。
 
 ```js
 $ npm create astro@latest -- --template starlight
@@ -75,3 +91,8 @@ $ npm run dev
 ## 新增页面
 
 ## 新增组件
+
+
+
+
+<Comments client:only="react" />
