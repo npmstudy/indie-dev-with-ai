@@ -10,14 +10,14 @@
 
 至此。8大技术栈
 
-1、node（基础）
-2、astro（基础）
-3、react（基础）
-4、tailwind（基础）
-5、mdx（基础）
-6、next（进阶）
-7、remix（进阶）
-8、shadcn/ui（进阶）
+- 1、node（基础）
+- 2、astro（基础）
+- 3、react（基础）
+- 4、tailwind（基础）
+- 5、mdx（基础）
+- 6、next（进阶）
+- 7、remix（进阶）
+- 8、shadcn/ui（进阶）
 
 ## 使用场景
 
