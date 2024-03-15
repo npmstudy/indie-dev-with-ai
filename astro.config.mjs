@@ -12,6 +12,7 @@ export default defineConfig({
         github: "https://github.com/withastro/starlight",
       },
       sidebar: [
+        { label: "前提", link: "/scenes/docs/" },
         {
           label: "场景",
           items: [
