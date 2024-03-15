@@ -11,6 +11,13 @@ export default defineConfig({
       },
       sidebar: [
         {
+          label: "场景",
+          items: [
+            // Each item here is one entry in the navigation menu.
+            { label: "开发站点", link: "/scenes/website/" },
+          ],
+        },
+        {
           label: "Guides",
           items: [
             // Each item here is one entry in the navigation menu.
