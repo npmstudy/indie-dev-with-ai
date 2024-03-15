@@ -59,7 +59,7 @@
 
 ## 其他
 
-- 限于篇幅，remix我没写，我很喜欢这个。
+- 你这个技术栈不考虑APP？答：水太深，只推荐native
 - 有人说next就不需要astro。我的回复是未必，做静态站点，next远没有astro爽。别说astro兼容vue、alphine等，就是性能，collection也吊打next。
 - 2gua过两天会说用go也挺好的：go只能替换node部分，都是function，无所谓的。会啥用啥。剩下那几个都依赖node，娃哈哈
 
