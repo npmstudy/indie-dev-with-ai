@@ -14,6 +14,7 @@ export default defineConfig({
           label: "场景",
           items: [
             // Each item here is one entry in the navigation menu.
+            { label: "写文档", link: "/scenes/docs/" },
             { label: "开发站点", link: "/scenes/website/" },
           ],
         },
