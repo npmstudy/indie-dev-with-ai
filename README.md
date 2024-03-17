@@ -20,6 +20,8 @@
 
 ## 技术栈
 
+前置条件，你多少要了解一些编程技能，无论那种。
+
 基础5大件：node+astro+react+tailwind+mdx
 
 后端node里已经有了。koa\express就够了，vercel上发布。
@@ -30,7 +32,7 @@
 
 - 1、node（基础）
 - 2、astro（基础）
-- 3、react（基础）
+- 3、react（基础）补[React自学路径](https://indie.npmstudy.com/react)。
 - 4、tailwind（基础）
 - 5、mdx（基础）
 - 6、next（进阶）
