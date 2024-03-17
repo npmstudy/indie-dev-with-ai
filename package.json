@@ -15,7 +15,6 @@
     "@giscus/react": "^3.0.0",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
-    "@vercel/analytics": "^1.2.2",
     "astro": "^4.3.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
