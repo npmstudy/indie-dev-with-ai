@@ -46,7 +46,7 @@ const Comments = () => {
           repo="npmstudy/indie-dev-with-ai"
           repoId="R_kgDOLgl_xw"
           category="Announcements"
-          categoryId="DIC_kwDOLgl_x84CeBtj"
+          categoryId="DIC_kwDOLgl_x84CeBtg"
           mapping="pathname"
           reactionsEnabled="1"
           emitMetadata="0"
