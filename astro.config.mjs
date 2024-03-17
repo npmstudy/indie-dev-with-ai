@@ -53,23 +53,23 @@ export default defineConfig({
             // Each item here is one entry in the navigation menu.
             {
               label: "1、建站",
-              link: "/guides/example/",
+              link: "/guides/site/",
             },
             {
               label: "2、学习写组件和页面",
-              link: "/guides/example/",
+              link: "/guides/component/",
             },
             {
               label: "3、学习写文档",
-              link: "/guides/example/",
+              link: "/guides/doc/",
             },
             {
               label: "4、学习写博客",
-              link: "/guides/example/",
+              link: "/guides/blog/",
             },
             {
               label: "5、学习其他集成场景",
-              link: "/guides/example/",
+              link: "/guides/intergration/",
             },
           ],
         },
@@ -79,23 +79,23 @@ export default defineConfig({
             // Each item here is one entry in the navigation menu.
             {
               label: "1、Node.js 写API",
-              link: "/guides/example/",
+              link: "/guides/node/",
             },
             {
               label: "2、Astro 建站",
-              link: "/guides/example/",
+              link: "/guides/astro/",
             },
             {
               label: "3、React 写组件和页面",
-              link: "/guides/example/",
+              link: "/guides/react/",
             },
             {
               label: "4、Tailwind CSS",
-              link: "/guides/example/",
+              link: "/guides/tailwind/",
             },
             {
               label: "5、Mdx 写文档",
-              link: "/guides/example/",
+              link: "/guides/mdx/",
             },
             {
               label: "6、Next.js 全栈",
