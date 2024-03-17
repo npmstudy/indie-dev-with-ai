@@ -39,8 +39,8 @@
 
 ## 使用场景
 
-- [快速建站](./scenes/website.md)
-- 写文档
+- 快速建站
+- [用Starlight写文档](https://indie.npmstudy.com/scenes/docs/)
 - 建博客
 - 加订单、支付
 - 集成服务
