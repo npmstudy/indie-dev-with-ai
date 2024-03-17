@@ -27,23 +27,23 @@ export default defineConfig({
             },
             {
               label: "建博客",
-              link: "/scenes/website/",
+              link: "/scenes/blog/",
             },
             {
               label: "加订单、支付",
-              link: "/scenes/website/",
+              link: "/scenes/order/",
             },
             {
               label: "集成服务",
-              link: "/scenes/website/",
+              link: "/scenes/service/",
             },
             {
               label: "开发完整saas",
-              link: "/scenes/website/",
+              link: "/scenes/saas/",
             },
             {
               label: "海外支付",
-              link: "/scenes/website/",
+              link: "/scenes/stripe/",
             },
           ],
         },
