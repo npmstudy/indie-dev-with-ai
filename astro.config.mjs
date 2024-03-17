@@ -12,7 +12,7 @@ export default defineConfig({
         github: "https://github.com/withastro/starlight",
       },
       sidebar: [
-        { label: "前提", link: "/fe" },
+        { label: "React自学路径", link: "/react" },
         {
           label: "场景",
           items: [
