@@ -26,7 +26,7 @@
 
 后端node里已经有了。koa\express就够了，vercel上发布。
 当然，vercel funcion、next也行
-如果在补一个，shadcn/ui可以算一个。
+如果在补一个，shadcn/ui可以算一个。如果了为了更方便，我更好愿意推荐用nextui && nextui.pro，其中nextui.pro虽然是付费的组件库，像通用、ai、市场、电商等四部分支持的非常好。可有效降低难度，提升开发速度。x上找[sudongyuer](https://twitter.com/sudongyuer)有折扣。
 
 至此。8大技术栈
 
@@ -37,7 +37,7 @@
 - 5、mdx（基础）
 - 6、next（进阶）
 - 7、remix（进阶）
-- 8、shadcn/ui（进阶）
+- 8、nextui && nextui.pro（进阶）
 
 ## 使用场景
 
@@ -56,7 +56,7 @@
 - astro可以quick，也可以dirty。我个人比较习惯react，组件生态足够。实在需要，加个shadcn/ui
 - 我不喜欢next，但next有一些生态是不错的，拿过来改改用，还是很爽的
 - 关于css，tailwind写响应式，真是太爽了，不是那么关注可读性，那真是太快了
-- 用tailwind 和 shadcn/ui 的好处之一是可以搭配https://v0.dev 遇到想不出来的样式，可以直接问，拷贝一下，依赖一装，成了
+- 用tailwind 和 shadcn/ui 和 nextui && nextui.pro 的好处之一是可以搭配https://v0.dev 遇到想不出来的样式，可以直接问，拷贝一下，依赖一装，成了
 - 以上技术和各种现有服务都非常容易集成，比如clark、paddle、supabase、stripe，这些现有集成的，都放在独立开发者的服务。集成服务是要花不少精力的一部分。
 
 ## 新手的话应该从哪里开始这个项目
@@ -83,7 +83,7 @@
 
 - 6、next（进阶）
 - 7、remix（进阶）
-- 8、shadcn/ui（进阶）
+- 8、nextui && nextui.pro（进阶）
 
 ## 还愿清单
 
