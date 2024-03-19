@@ -3,6 +3,9 @@ title: 这是一篇react自学路径指南
 description: A guide in react roadmap for self-study.
 ---
 
+1、参考liruifengv.com，使用astro建博客。
+2、找一个nextjs模版，搭建博客。
+
 
 ## 需求背景
 
