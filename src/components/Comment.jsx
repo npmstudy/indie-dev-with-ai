@@ -1,42 +1,42 @@
 // @ts-nocheck
-import * as React from "react";
-import Giscus from "@giscus/react";
+import * as React from "react"
+import Giscus from "@giscus/react"
 
-const id = "inject-comments";
+const id = "inject-comments"
 
-function getCurrentTheme() {
-  if (window.localStorage.getItem("theme")) {
-    return window.localStorage.getItem("theme");
-  }
+function getSavedTheme() {
+  return window.localStorage.getItem("starlight-theme")
+}
+
+function getSystemTheme() {
   return window.matchMedia("(prefers-color-scheme: dark)").matches
     ? "dark"
-    : "light";
+    : "light"
 }
 
 const Comments = () => {
-  const [mounted, setMounted] = React.useState(false);
-  const [theme, setTheme] = React.useState("light");
-
-  const handleThemeChange = ({ detail: { themeValue } }) => {
-    const theme = themeValue ?? "light";
-    alert(theme);
-    setTheme(theme);
-  };
+  const [mounted, setMounted] = React.useState(false)
+  const [theme, setTheme] = React.useState(getSavedTheme() || getSystemTheme())
 
   React.useEffect(() => {
-    const theme = getCurrentTheme();
-    console.log(theme);
-    setTheme(theme);
-    window.addEventListener("theme-change", handleThemeChange);
+    // 监听主题变化
+    const observer = new MutationObserver(() => {
+      setTheme(getSavedTheme())
+    })
+    observer.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ["data-theme"],
+    })
 
+    // 取消监听
     return () => {
-      window.removeEventListener("theme-changes", handleThemeChange);
-    };
-  }, []);
+      observer.disconnect()
+    }
+  }, [])
 
   React.useEffect(() => {
-    setMounted(true);
-  }, []);
+    setMounted(true)
+  }, [])
 
   return (
     <div id={id} style={{ marginTop: "50px" }}>
@@ -57,7 +57,7 @@ const Comments = () => {
         />
       ) : null}
     </div>
-  );
-};
+  )
+}
 
-export default Comments;
+export default Comments
